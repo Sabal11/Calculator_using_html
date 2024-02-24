@@ -8,14 +8,13 @@
 }
 body {
   height: 100vh;
-  background: grey;
   display: grid;
+  background-image: url('calc.png');
 }
 .container {
   width: 100%;
-
   height: 100%;
-
+  background-image: url('calc.png');
   display: flex;
 }
 .calculator {
@@ -41,7 +40,7 @@ body {
   margin: 10px;
 }
 .calculator form input.NumpadBtns {
-  background: #012a4a;
+  background: #0381e1;
 }
 form .display {
   display: flex;
